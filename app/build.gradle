@@ -6,8 +6,8 @@ android {
         applicationId "com.lauden.weeliangng.terrapin"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 11
-        versionName "2"
+        versionCode 12
+        versionName "2.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
 
