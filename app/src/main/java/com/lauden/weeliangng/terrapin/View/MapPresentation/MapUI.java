@@ -1797,6 +1797,8 @@ public List<IncidentObject> incilist2 = new ArrayList<>();
         mapView.onSaveInstanceState(outState);
     }
 
+    
+
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
         switch (requestCode) {
             case 1: {
