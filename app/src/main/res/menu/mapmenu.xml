@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+<!--
+
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_search_white_48dp"
+          android:title="Search"
+          app:actionViewClass="android.support.v7.widget.SearchView"
+          app:showAsAction="always|collapseActionView" />
+-->
+
+    <item
+    android:id="@+id/action_addMarkers"
+    android:orderInCategory="100"
+    android:icon="@drawable/ic_refresh_white_48dp"
+
+    android:title="Refresh Traffic Camera"
+   />
+
+
+
+    <item
+        android:id="@+id/locbutton"
+        android:orderInCategory="100"
+        android:icon="@drawable/parkingwhite"
+
+        android:title="Nearby CarParks"
+     />
+
+
+
+
+
+</menu>

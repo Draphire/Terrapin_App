@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+              android:gravity="top"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mapcamera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cameraAddress"
+            android:adjustViewBounds="true">
+        </ImageView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cameraAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/markerTitle"/>
+
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cameraCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/mapcamera"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mapcamera"/>
+
+        <TextView
+            android:id="@+id/cameraState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cameraCity"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cameraCity"/>
+
+        <TextView
+            android:id="@+id/cameraKnownName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cameraPostalCode"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cameraPostalCode"/>
+
+        <TextView
+            android:id="@+id/cameraPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cameraCountry"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cameraCountry"/>
+
+        <TextView
+            android:id="@+id/cameraCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cameraState"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/cameraState"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

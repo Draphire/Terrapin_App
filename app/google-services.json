@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "486433692730",
+    "firebase_url": "https://teraffic-v88.firebaseio.com",
+    "project_id": "teraffic-v88",
+    "storage_bucket": "teraffic-v88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486433692730:android:61c9798f2db1cfe7",
+        "android_client_info": {
+          "package_name": "com.lauden.weeliangng.teraffic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486433692730-bri6d3vpt77cdtt88jc42fcnqakc0l5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauden.weeliangng.teraffic",
+            "certificate_hash": "1e60f87ed66aaf886115298ac3c861228b2a0bf3"
+          }
+        },
+        {
+          "client_id": "486433692730-920074m26nco0as283n5qdh99br7n01h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauden.weeliangng.teraffic",
+            "certificate_hash": "e71cdee21e6c9b0b0f171ced07d46b62816d4690"
+          }
+        },
+        {
+          "client_id": "486433692730-5nn2nkt2svgsv22k8mscm8g7vstqo96k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauden.weeliangng.teraffic",
+            "certificate_hash": "dc5a7346f4aa7c5ba94008906614b2dbff172123"
+          }
+        },
+        {
+          "client_id": "486433692730-1rbp9i8lfkou24odv1qi5dca3epbc5lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_f9pjLKHQjolBzm1JFP5KVFkrzjaYyCU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486433692730-1rbp9i8lfkou24odv1qi5dca3epbc5lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486433692730:android:89220afb446a9585",
+        "android_client_info": {
+          "package_name": "com.lauden.weeliangng.terrapin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486433692730-ojrbum6asgn7suiflcuo47c9lgagn2j4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lauden.weeliangng.terrapin",
+            "certificate_hash": "e71cdee21e6c9b0b0f171ced07d46b62816d4690"
+          }
+        },
+        {
+          "client_id": "486433692730-1rbp9i8lfkou24odv1qi5dca3epbc5lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_f9pjLKHQjolBzm1JFP5KVFkrzjaYyCU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486433692730-1rbp9i8lfkou24odv1qi5dca3epbc5lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

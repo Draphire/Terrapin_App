@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <item android:title="Show Markers">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_roadincident"
+            android:icon="@drawable/ic_action_incidentnav"
+            android:title="Road Incidents"/>
+        <item
+            android:id="@+id/nav_trafficcam"
+            android:icon="@drawable/ic_action_videocam"
+            android:title="Traffic Camera"/>
+        <item
+            android:id="@+id/nav_roadwork"
+            android:icon="@drawable/ic_action_roadworknav"
+            android:title="Road Works"/>
+        <item
+            android:id="@+id/nav_mallcp"
+            android:icon="@drawable/ic_action_store_mall_directory"
+            android:title="Mall Car Parks"/>
+        <item
+            android:id="@+id/nav_nearbyhdb"
+            android:icon="@drawable/ic_action_location_city"
+            android:title="Nearby HDB CarPark"/>
+    </group>
+    </item>
+
+    <item android:title="My List">
+        <menu>
+            <item
+                android:id="@+id/mylist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="My List"/>
+
+            <item
+                android:id="@+id/signinout"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="Sign Out"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Quick-List">
+        <menu>
+            <item
+                android:id="@+id/cameralist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="Camera List"/>
+            <item
+                android:id="@+id/incidentlist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="Incidents List"/>
+            <item
+                android:id="@+id/roadworklist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="RoadWork List"/>
+            <item
+                android:id="@+id/hdblist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="HDB List"/>
+            <item
+                android:id="@+id/malllist"
+                android:icon="@drawable/ic_action_view_list"
+                android:title="Mall List"/>
+
+        </menu>
+
+    </item>
+
+</menu>

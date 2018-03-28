@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_alignParentTop="false"
+                android:layout_centerInParent="false"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:weightSum="1">
+    <!--   android:layout_marginTop="100dp"
+         -->
+    <RelativeLayout
+        android:id="@+id/listContain"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/adCarSizing"-->
+
+    <!--android:background="@color/md_blue_grey_900"-->
+
+    <!--android:orientation="vertical">-->
+
+    <!--<com.google.android.gms.ads.AdView-->
+
+    <!--android:background="@color/md_blue_grey_800"-->
+    <!--android:id="@+id/adView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--ads:adSize="SMART_BANNER"-->
+    <!--ads:adUnitId="ca-app-pub-7220416147687992/3910382208"-->
+    <!--&gt;-->
+    <!--</com.google.android.gms.ads.AdView>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
