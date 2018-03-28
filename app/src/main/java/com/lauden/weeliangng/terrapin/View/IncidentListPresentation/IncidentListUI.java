@@ -709,45 +709,6 @@ public class IncidentListUI extends Fragment implements MainActivityObserver {
 
 
 
-//    void refreshItems() {
-//        // mAdapter.swapItems(items);
-//       /* for(int j =0; j<items.size();j++) {
-//            mAdapter.notifyChildRemoved(j, 0);
-//            mAdapter.notifyChildInserted(j, 0);
-//        }*/
-//        // List<TitleIncidentObject> tempItem = items;
-//        //items = CameraDAOUsage.CameraDAOgetTitleObjectList();
-//
-//        //  mAdapter.updateItems(items,tempItem);
-//
-//        mAdapter.updateItems(getActivity());
-//
-//        onItemsLoadComplete();
-//    }
-
-//    void refreshItems(int loadCount) {
-//        // mAdapter.swapItems(items);
-//
-//        for(int j =0; j<loadCount;j++) {
-//            mAdapter.notifyChildRemoved(j, j);
-//            mAdapter.notifyChildInserted(j, j);
-//        }
-//
-//        onItemsLoadComplete();
-//
-//    }
-
-
-//    void onItemsLoadComplete() {
-//        // Update the adapter and notify data set changed
-//        // ...
-//
-//
-//        // Stop refresh animation
-//        mSwipeRefreshLayout.setRefreshing(false);
-//
-//    }
-
     @Override
     public void onStart() {
         super.onStart();
