@@ -24,11 +24,7 @@ public class AsynTaskCamera extends AsyncTask<Void,Void,List<LTACameraObject>> {
 
     MapAsyncTaskListener listener;
     Activity mActivity;
-    DataSnapshot dataSnapshot;
-    ValueEventListener mValueEventListener;
-    Context mContext;
-    List<MallObject> mMallObjectList = new ArrayList<>();
-    List<Marker> CamMarkerList = new ArrayList<>();
+
 
     public AsynTaskCamera(MapAsyncTaskListener listener, Activity activity) {
 this.listener = listener;

@@ -9,7 +9,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.lauden.weeliangng.terrapin.MainActivityUI;
 import com.lauden.weeliangng.terrapin.Model.CameraFactoryPattern.LTACameraObject;
 import com.lauden.weeliangng.terrapin.Model.DataAccessObjects.CameraDAOpattern.CameraDAOImplement;
 import com.lauden.weeliangng.terrapin.Model.IncidentFactoryPattern.IncidentObject;
