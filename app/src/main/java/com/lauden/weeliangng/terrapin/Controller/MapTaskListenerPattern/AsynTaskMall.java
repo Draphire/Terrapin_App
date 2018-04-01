@@ -61,12 +61,26 @@ this.dataSnapshot = dataSnapshot;
             carparkObjectMALL = postSnapshot.getValue(MallObject.class);
 
 
-            String[] latlong = carparkObjectMALL.getLocation().split(" ");
-            double latitude = Double.parseDouble(latlong[0]);
-            double longitude = Double.parseDouble(latlong[1]);
+//            String[] latlong = carparkObjectMALL.getLocation().split(" ");
+//            double latitude = Double.parseDouble(latlong[0]);
+//            double longitude = Double.parseDouble(latlong[1]);
 
-            carparkObjectMALL.setLat(latitude);
-            carparkObjectMALL.setLong(longitude);
+            String[] latlong = carparkObjectMALL.getLocation().split(" ");
+            if(latlong[0].isEmpty()){
+                carparkObjectMALL.setLat((double) 0);
+                carparkObjectMALL.setLong((double) 0);
+            }else {
+                double latitude = Double.parseDouble(latlong[0]);
+                double longitude = Double.parseDouble(latlong[1]);
+
+                carparkObjectMALL.setLat(latitude);
+                carparkObjectMALL.setLong(longitude);
+            }
+
+
+
+//            carparkObjectMALL.setLat(latitude);
+//            carparkObjectMALL.setLong(longitude);
 
 //            System.out.println("SPlit Mall LatLon " +
 //                    String.valueOf(carparkObjectMALL.getLat()) + " and " + String.valueOf(carparkObjectMALL.getLong()));
